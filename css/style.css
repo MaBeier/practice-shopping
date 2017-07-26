@@ -1,0 +1,176 @@
+*{
+	margin: 0;padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+    line-height: 50px;
+    margin: auto 10px;
+}
+.container{
+	min-width: 1200px;
+
+}
+.warp{
+	width: 1200px;
+	margin:0 auto;
+}
+button{
+	width: 20px;
+}
+input{
+	width: 50px;
+}
+
+
+/*header部分*/
+header,footer{
+	height: 50px;
+	background-color: #363c41;
+}
+header img{
+	float: left;margin-top: 5px;
+}
+.nav_left{
+	float: left;
+	position: relative;
+}
+._right{
+	display: inline-block;
+	margin:14px;
+	float: right;
+}
+
+._box{
+	width: 110px;
+	position: absolute;
+	padding: 5px;
+	left: -100px;
+	background-color:transparent;
+	border-color: transparent;
+	border-bottom-color: #eee;
+	border-bottom-width: 1px;
+}
+._right_all{
+	margin: auto 10px;
+	display: inline-block;
+	float: left;
+}
+
+._right-1{ 
+	position: relative;
+	width: 22px;height: 22px;
+	background-image: url(../img/icon-1-sprite_w22.png);background-size:cover;
+	background-position: 0 0px;
+}
+._right-2{
+	width: 22px;height: 22px;
+	background-image: url(../img/icon-1-sprite_w22.png);
+	background-position: 0 -22px;
+}
+._right-3{background-size:cover;
+	width: 22px;height: 22px;
+	background-image: url(../img/icon-1-sprite_w22.png);background-size:cover;
+	background-position: 0 -44px;
+}
+._right-4{
+	width: 22px;height: 22px;
+	background-image: url(../img/icon-1-sprite_w22.png);background-size:cover;
+	background-position: 0 -66px;
+}
+.nav_logo{
+	position: absolute;
+}
+
+/*banner部分*/
+.banner{
+	 height: 200px;width: 100%;
+	 background: url(../img/cart-header-bg.jpg); background-size:cover;
+}
+.banner>div{
+	margin:0 auto;text-align: center;
+	width: 1000px;
+	
+}
+._h1{
+	text-align: left;
+	font-size: 48px;
+	padding-top: 74px;
+}
+
+/*表格部分*/
+.main{
+	height: 600px;
+}
+.main table{border:1px solid  #eee;
+	margin:0 auto;text-align: center;
+	width: 1000px;
+}
+
+.tr_title{
+	/*background: #eee;*/
+}
+
+.table_sec td{
+	float:right;
+}
+
+.table_sec p{
+	display: inline-block;
+	
+}
+.js{
+	width: 100px;
+}
+
+
+
+
+/*footer部分*/
+footer{
+	
+	line-height: 25px;
+	color: #fff;
+}
+.footer_container{
+	min-width: 1200px;
+	margin: 0 auto;
+}
+.footer_container>nav{
+	float: left;
+	
+}
+.footer_container>nav>a{
+	line-height: 14px;
+}
+.nav_p{
+	float: left;
+}
+
+
+.footer_container>._footer{
+	display: inline-block;
+	float: right;
+}
+._footer>._footer-all{
+	display: inline-block;
+	float: right;
+}
+
+._footer>.footer-1{
+	width: 50px;height: 50px;
+	background-image: url('../img/footer-sprite.png');background-size:cover;
+	background-position: 35px -280px;
+}
+._footer>.footer-2{
+	width: 50px;height: 50px;
+	background-image: url('../img/footer-sprite.png');background-size:cover;
+	background-position: 35px -320px;
+}
+._footer>.footer-3{
+	width: 50px;height: 50px;
+	background-image: url('../img/footer-sprite.png');background-size:cover;
+	background-position: 35px -360px;
+}
+/*不懂为什么最后背景图片出不来，这一块麻烦详细说明~*/
